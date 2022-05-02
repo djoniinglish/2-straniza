@@ -60,10 +60,6 @@ main p{
     font-size: 22px;
     line-height: 30px;
 }
-.vidio{
-    display: block;
-    text-align: center;
-}
 ul li.colors2,ul li:hover{
     background: #6d492e;
 }
