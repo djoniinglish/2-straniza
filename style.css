@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height:700px;
+    background: url("https://www.rgo.ru/sites/default/files/node/38390/aisty4.jpg");
+    background-size: cover;
+    filter: sepia(100%);
+    animation: anim 25s linear infinite;
+}
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background:black;
+    padding: 0 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.logo{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+ul li{
+    list-style: none;
+    line-height: 50px;
+}
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 22px;
+}
+main{
+    width: 100%;
+    padding: 70px 100px;
+    box-sizing: border-box;
+    background: #d6d5c1;
+}
+main h1{
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+main p{
+    font-size: 22px;
+    line-height: 30px;
+}
+.vidio{
+    display: block;
+    text-align: center;
+}
+ul li.colors2,ul li:hover{
+    background: #6d492e;
+}
+.zagolovok{
+    margin-top: 25px;
+}
